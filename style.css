@@ -32,11 +32,18 @@ header{
         text-align: left;
         padding: 10px 0px 5px 0px;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.548);
-    }
-        nav > a{
-            color: white;
-            text-decoration: none;
-            padding: 5px 4px 5px 10px;    
+    } 
+        nav > a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 4px 5px 10px;    
+        }
+        @media(max-width: 362px) {
+            nav > a {
+                color: white;
+                text-decoration: none;
+                padding: 5px 0px 5px 3px; 
+            }
         }
             nav > a:hover{
                 background-color: #279157;
@@ -84,11 +91,17 @@ main{
         font-family: 'idroid';
     }
         h3.idroid{
-            box-shadow: inset 400px 0px 20px 0px #c5ebd5;
+            box-shadow: inset 450px 0px 20px 0px #c5ebd5;
             padding: 5px 5px;
     }
     h2{
         padding: 10px 0px;
+    }
+    @media(max-width:362px) {
+        h2{
+            font-size: 1.35em;
+            padding: 10px 0px
+        }
     }
     p{
         text-indent: 20px;
