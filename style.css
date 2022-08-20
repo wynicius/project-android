@@ -42,6 +42,13 @@ header{
             nav > a {
                 color: white;
                 text-decoration: none;
+                padding: 5px 0px 5px 10px; 
+            }
+        }
+        @media(max-width: 349px) {
+            nav > a {
+                color: white;
+                text-decoration: none;
                 padding: 5px 0px 5px 3px; 
             }
         }
